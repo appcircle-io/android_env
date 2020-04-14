@@ -31,7 +31,7 @@ public class SampleFragmentDetail extends Fragment {
 
         activity.showHomeItem(true);
         TextView appVersionTextView = view.findViewById(R.id.appVersionTextView);
-        appVersionTextView.setText(BuildConfig.CUSTOM_CONFIG_FIELD);
+        appVersionTextView.setText("Api URL: " + BuildConfig.APPCIRCLE_API_URL);
         return view;
     }
 
